@@ -1,5 +1,5 @@
 # solenoidseq
-Sequencer to solenoids with arduino
+Sequencer for solenoids with arduino
 
 Supercollider and two solenoids atm.
 
