@@ -375,62 +375,9 @@ naputtaja2 = Task {arg o;
 )
 
 
-(
-
-
-var funkkis;
-var tieto = Array.newClear(4);
-~tieto = [1,2,3,4];
-
-
-funkkis = {arg o;
-
-	["tieto on: ",o].postln;
-
-};
-
-
-funkkis.value(~tieto);
-
-
-
-)
-
-
-
-(
-
-
-r = Task {arg i,j,k;
-
-
-	"jeps".postln;
-
-	1.wait;
-
- [i,j,k].postln;
-
-};
-
-)
-
-
-i = 10;
-
-
-r.start;
-r.stop;
 
 
 
 
 
-n=false;
-
-n.value;
-// FUNKTIO SELVITT selvitt{arg paikka; valon paikka,
-// 			rivin 1 paikka rivin 2 paikka etc. IF GO -> soittaja GO}
-// FUNKTIO SOITTAJA  soittaja {arg a,b,c,d,e;
-
--1+1
 
